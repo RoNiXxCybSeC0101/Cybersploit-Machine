@@ -88,6 +88,8 @@ Before you start, make sure you have the following:
   ``` bash
   netdiscover -i eth0
 
+  ![Netdiscover shows IP address in the same network](images/
+
 ### Nmap
 
 
