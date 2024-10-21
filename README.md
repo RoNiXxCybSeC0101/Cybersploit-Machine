@@ -87,6 +87,7 @@ Before you start, make sure you have the following:
 - **Usage** :
   ``` bash
   netdiscover -i eth0
+![images](main/images/
 
 ### Nmap
 
