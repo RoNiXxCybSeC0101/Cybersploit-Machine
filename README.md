@@ -87,7 +87,9 @@ Before you start, make sure you have the following:
 - **Usage** :
   ``` bash
   netdiscover -i eth0
-![images](images/
+![Alt text](https://raw.githubusercontent.com/RoNiXxCybSeC0101/Cybersploit-Machine/main/images/)
+
+
   
 ### Nmap
 
