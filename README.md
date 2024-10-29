@@ -31,6 +31,7 @@ By providing a comprehensive platform for exploration and practice, the Cyberspl
 - [Installation](#installation)
 - [Tools used](#toolsused)
 - [Access SSH](#accessssh)
+- [Privilage Escalation](#privelageescalation)
 - 
 
 ## Features
@@ -154,8 +155,8 @@ SSHusername = itsskv
 so on our nmap scan we identified that the port 22 ssh is open and now with this username we can establish a remote connection via ssh like this 
 
 
-    ```bash
-       ssh itsskv@<targetip>
+  - ```bash
+      ssh itsskv@<targetip>
 
 ![Screenshot 2024-10-19 090401](https://github.com/user-attachments/assets/6819682f-9371-4240-8598-0d67c6c5a048)
 
@@ -165,7 +166,46 @@ connected via ssh and ls into it to list the files and directories
 
 and we find out a flag2.txt and we cat it and found out that is a bunch of 010101 so we decide to decode it using
 
-![Screenshot 2024-10-19 090634](https://github.com/user-attachments/assets/54a32798-f00c-44f9-9c72-8d6930c13a37)
+![Screenshot 2024-10-19 090557](https://github.com/user-attachments/assets/68b7958d-c637-425b-be9f-582978436cac)
+
+by using the code beautify site we decoded the file
+
+![Screenshot 2024-10-19 090634](https://github.com/user-attachments/assets/e5f38156-d4a0-43f3-807d-e516a849816d)
+
+and we got the second flag 
+
+flag2:cybersploit{https:t.me/cybersploit1}
+
+next we are going do the privilage escalation
+
+## Privilage Escalation 
+
+So at first we are going to check the kernal version using the command 
+
+- ```bash
+       uname -a
+
+![Screenshot 2024-10-19 091003](https://github.com/user-attachments/assets/a9b15cd5-6f46-492d-938d-a782b6135107)
+
+after getting vresion we then check for the exploits for the version 
+
+![Screenshot 2024-10-19 091212](https://github.com/user-attachments/assets/10d7b105-dd1f-482c-b000-8655c542d59f)
+
+we got an exploit that is usefull for  the version 
+
+![Screenshot 2024-10-19 091246](https://github.com/user-attachments/assets/c062e08a-2331-4a42-997e-029aca7be459)
+
+then download the exploit and go to our downloads directory and cat the file using
+
+- ```bash
+     cat <exploit file>
+
+![Screenshot 2024-10-19 092029](https://github.com/user-attachments/assets/ee58720f-6ba6-4d3d-ad5d-ba8177b9ec9a)
+
+
+
+
+
 
 
 
