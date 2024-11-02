@@ -187,7 +187,11 @@ So at first we are going to check the kernal version using the command
 
 ![Screenshot 2024-10-19 091003](https://github.com/user-attachments/assets/a9b15cd5-6f46-492d-938d-a782b6135107)
 
-after getting vresion we then check for the exploits for the version 
+after getting vresion we then check for the exploits for the version first using searchsploit 
+
+![Screenshot 2024-10-19 094708](https://github.com/user-attachments/assets/61a54a17-7b35-4d54-960d-6bb70b03e510)
+
+and search the privesc exploit in exploit db
 
 ![Screenshot 2024-10-19 091212](https://github.com/user-attachments/assets/10d7b105-dd1f-482c-b000-8655c542d59f)
 
@@ -201,6 +205,38 @@ then download the exploit and go to our downloads directory and cat the file usi
      cat <exploit file>
 
 ![Screenshot 2024-10-19 092029](https://github.com/user-attachments/assets/ee58720f-6ba6-4d3d-ad5d-ba8177b9ec9a)
+
+then i just compress it in the ssh users file like this
+
+![Screenshot 2024-10-19 102122](https://github.com/user-attachments/assets/306c6737-752a-4280-a9f1-5547d9d101db)
+
+so i can directly exploit it through the remote accecs
+
+then ls it and got the file called exploit
+
+![Screenshot 2024-10-19 102159](https://github.com/user-attachments/assets/5324292e-b717-415d-8554-dc73ea562e8b)
+
+then i used the command
+
+    ```bash
+          ./exploit
+to run the exploit and to get privilage access means root access in the system
+
+![Screenshot 2024-10-19 102217](https://github.com/user-attachments/assets/d6c9d427-0724-44a2-873f-740f24557b79)
+
+we can see we are now in the root directory
+
+after getting the root access cd into the root and ls we can see the finalflag.txt
+
+![Screenshot 2024-10-19 102257](https://github.com/user-attachments/assets/d6ceb539-5d2d-46a8-ae30-6e0fccf93f63)
+
+
+hope you enjoy reading through this have  a NICE DAY !!!!!
+
+
+
+
+
 
 
 
