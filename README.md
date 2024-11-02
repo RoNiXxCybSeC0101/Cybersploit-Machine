@@ -131,6 +131,8 @@ okay running the url we got the hash formated flag like text
 
 so we are going to use a base64 decoder to decode this text 
 
+[direct link to Base64 page ](https://www.base64decode.org/)
+
 ![Screenshot 2024-10-19 090212](https://github.com/user-attachments/assets/f027496a-f432-4848-b745-d731cb337a1f)
 
 we just decoded the text and the result is
@@ -166,6 +168,8 @@ connected via ssh and ls into it to list the files and directories
 
 and we find out a flag2.txt and we cat it and found out that is a bunch of 010101 so we decide to decode it using
 
+[direct link to the code beautify](https://codebeautify.org/)
+
 ![Screenshot 2024-10-19 090557](https://github.com/user-attachments/assets/68b7958d-c637-425b-be9f-582978436cac)
 
 by using the code beautify site we decoded the file
@@ -193,6 +197,8 @@ after getting vresion we then check for the exploits for the version first using
 
 and search the privesc exploit in exploit db
 
+[direct link for the exploit in exploit DB](https://www.exploit-db.com/exploits/37292)
+
 ![Screenshot 2024-10-19 091212](https://github.com/user-attachments/assets/10d7b105-dd1f-482c-b000-8655c542d59f)
 
 we got an exploit that is usefull for  the version 
@@ -218,8 +224,10 @@ then ls it and got the file called exploit
 
 then i used the command
 
-    ```bash
-          ./exploit
+  -```bash
+  
+     ./exploit
+     
 to run the exploit and to get privilage access means root access in the system
 
 ![Screenshot 2024-10-19 102217](https://github.com/user-attachments/assets/d6c9d427-0724-44a2-873f-740f24557b79)
