@@ -32,7 +32,7 @@ By providing a comprehensive platform for exploration and practice, the Cyberspl
 - [Tools used](#toolsused)
 - [Access SSH](#accessssh)
 - [Privilage Escalation](#privelageescalation)
-- 
+  
 
 ## Features
 - Simulated vulnerabilities for practice.
