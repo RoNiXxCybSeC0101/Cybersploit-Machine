@@ -224,7 +224,7 @@ then ls it and got the file called exploit
 
 then i used the command
 
-  -```bash
+- ```bash
   
      ./exploit
      
